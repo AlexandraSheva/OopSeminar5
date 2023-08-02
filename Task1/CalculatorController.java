@@ -25,5 +25,6 @@ public class CalculatorController {
       default:
         System.out.println("Некорректная операция!");
     }
+    view.displayResult(model.getResult());
   }
 }

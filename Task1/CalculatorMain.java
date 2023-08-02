@@ -8,5 +8,6 @@ public class CalculatorMain {
     int num1 = view.getOperand();
     int num2 = view.getOperand();
     controller.performOperation(operation, num1, num2);
+    
   }
 }
